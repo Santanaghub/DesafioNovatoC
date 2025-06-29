@@ -10,27 +10,35 @@ int main(){
     int Pontos_Turisticos1;
 
     printf("Carta1: \n");
+    fflush(stdin);
 
     printf("Digite o nome do Estado1: \n");
     scanf("%d", &Estado1);
+    fflush(stdin);
 
     printf("o código da carta1: \n");                                                                                                                                                                                                                                                                                 
     scanf("%d", &Código1);
+    fflush(stdin);
 
     printf("seu nome da cidade: \n");
     scanf("%f", &Nome1);
+    fflush(stdin);
                   
     printf("Digite a Populacao: \n");
     scanf("%d", &Habitantes1);
+    fflush(stdin);
     
     printf("Digite a Área em Km²: \n");
     scanf("%f", &Área1);
+    fflush(stdin);
 
     printf("Digite o PIB: \n");
     scanf("%f", &PIB1);
+    fflush(stdin);
 
     printf("Digite os Pontos Turísticos1: \n");
     scanf("%d", &Pontos_Turisticos1);
+    fflush(stdin);
 
     printf("o nome do Estado é: %d \n", Estado1);
     printf("o Codigo da Carta é: %d \n", Código1);
@@ -48,27 +56,35 @@ int main(){
     int Pontos_Turisticos2;
 
     printf("Carta2 \n");
+    fflush(stdin);
 
     printf("Digite o nome do Estado2: \n");
     scanf("%d", &Estado2);
+    fflush(stdin);
     
     printf("Digite o código da carta2: \n");                                                                                                                                                                                                                                                                                 
     scanf("%s", &Código2);
+    fflush(stdin);
   
     printf("Digite o nome da cidade2: \n");
-    scanf("%s", &Nome2);              
+    scanf("%s", &Nome2);  
+    fflush(stdin);            
     
     printf("Digite a Populacao2: \n");
     scanf("%d", &Habitantes2);
+    fflush(stdin);
 
     printf("Digite a Área2: \n");
     scanf("%f", &Área2);
+    fflush(stdin);
     
     printf("Digite o PIB: \n");
     scanf("%f", &PIB2);
+    fflush(stdin);
     
     printf("Digite os Pontos Turísticos: \n");
     scanf("%d", &Pontos_Turisticos2);
+    fflush(stdin);
 
     printf("o nome do Estado é: %d \n", Estado2);
     printf("o Codigo da Carta é: %s \n", Código2);
